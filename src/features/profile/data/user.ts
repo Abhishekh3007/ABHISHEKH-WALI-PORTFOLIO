@@ -39,7 +39,7 @@ export const USER: User = {
 - **Passionate** about building production-grade systems, mentoring the next generation of engineers, and exploring AI automation pipelines.
 - **Mission:** Creating impactful software solutions while empowering engineering students through hands-on mentorship.
 `,
-  avatar: "/images/me.jpg", // TODO_REPLACE_PROFILE_IMAGE
+  avatar: "/images/me.png", // updated to brand avatar
   ogImage: "/images/og-image-light.png", // TODO_REPLACE_PROFILE_IMAGE
   namePronunciationUrl: "",
   keywords: [

@@ -113,6 +113,10 @@ export default function RootLayout({
           since we found the regular `<script>` tag to not execute when rendering a not-found page.
          */}
         <Script src={`data:text/javascript;base64,${btoa(darkModeScript)}`} />
+        {/* Explicit favicon links to ensure browsers pick up the icon */}
+        <link rel="icon" href="/images/brand/favicon.svg" type="image/svg+xml" />
+        <link rel="shortcut icon" href="/images/brand/favicon.svg" />
+        <link rel="apple-touch-icon" href="/images/brand/favicon.svg" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

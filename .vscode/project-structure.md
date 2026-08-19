@@ -1,0 +1,1012 @@
+# Project Structure
+
+This file maintains an up-to-date list of project files and structure.
+
+## File Structure
+
+- 📁 `.husky/`
+  - 📁 `.husky\_/`
+    - 📄 `.husky\_\.gitignore` (Unknown)
+    - 📄 `.husky\_\applypatch-msg` (Unknown)
+    - 📄 `.husky\_\commit-msg` (Unknown)
+    - 📄 `.husky\_\h` (Unknown)
+    - 📄 `.husky\_\husky.sh` (Unknown)
+    - 📄 `.husky\_\post-applypatch` (Unknown)
+    - 📄 `.husky\_\post-checkout` (Unknown)
+    - 📄 `.husky\_\post-commit` (Unknown)
+    - 📄 `.husky\_\post-merge` (Unknown)
+    - 📄 `.husky\_\post-rewrite` (Unknown)
+    - 📄 `.husky\_\pre-applypatch` (Unknown)
+    - 📄 `.husky\_\pre-auto-gc` (Unknown)
+    - 📄 `.husky\_\pre-commit` (Unknown)
+    - 📄 `.husky\_\pre-merge-commit` (Unknown)
+    - 📄 `.husky\_\pre-push` (Unknown)
+    - 📄 `.husky\_\pre-rebase` (Unknown)
+    - 📄 `.husky\_\prepare-commit-msg` (Unknown)
+  - 📄 `.husky\pre-commit` (Unknown)
+- 📁 `.next/`
+  - 📁 `.next\dev/`
+    - 📁 `.next\dev\build/`
+      - 📁 `.next\dev\build\chunks/`
+        - 📄 `.next\dev\build\chunks\[root-of-the-server]__51225daf._.js` (JavaScript)
+          - *Exports:* `module.exports`, `module.exports`, `module.exports`, `module.exports`
+        - 📄 `.next\dev\build\chunks\[root-of-the-server]__51225daf._.js.map` (Unknown)
+        - 📄 `.next\dev\build\chunks\[root-of-the-server]__974941ed._.js` (JavaScript)
+          - *Exports:* `module.exports`, `module.exports`, `module.exports`
+        - 📄 `.next\dev\build\chunks\[root-of-the-server]__974941ed._.js.map` (Unknown)
+        - 📄 `.next\dev\build\chunks\[turbopack-node]_transforms_postcss_ts_72275c55._.js` (JavaScript)
+          - *Exports:* `module.exports`
+        - 📄 `.next\dev\build\chunks\[turbopack-node]_transforms_postcss_ts_72275c55._.js.map` (Unknown)
+        - 📄 `.next\dev\build\chunks\[turbopack]_runtime.js` (JavaScript)
+          - *Imports:* `path`, `fs`, `stream`, `url`
+          - *Exports:* `module.exports`, `module.exports`, `module.exports`, `module.exports`
+        - 📄 `.next\dev\build\chunks\[turbopack]_runtime.js.map` (Unknown)
+        - 📄 `.next\dev\build\chunks\node_modules__pnpm_56ec7204._.js` (JavaScript)
+          - *Exports:* `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`
+        - 📄 `.next\dev\build\chunks\node_modules__pnpm_56ec7204._.js.map` (Unknown)
+      - 📄 `.next\dev\build\package.json` (JSON)
+      - 📄 `.next\dev\build\postcss.js` (JavaScript)
+        - *Exports:* `module.exports`
+      - 📄 `.next\dev\build\postcss.js.map` (Unknown)
+    - 📁 `.next\dev\cache/`
+      - 📁 `.next\dev\cache\fetch-cache/`
+        - 📄 `.next\dev\cache\fetch-cache\d9613dc55dd20486fc462deb3250e7e54664ca37afe3881c30c6ddaf5343e20c` (Unknown)
+      - 📄 `.next\dev\cache\.rscinfo` (Unknown)
+      - 📄 `.next\dev\cache\next-devtools-config.json` (JSON)
+    - 📁 `.next\dev\logs/`
+    - 📁 `.next\dev\server/`
+      - 📁 `.next\dev\server\app/`
+        - 📁 `.next\dev\server\app\_not-found/`
+          - 📁 `.next\dev\server\app\_not-found\page/`
+            - 📄 `.next\dev\server\app\_not-found\page\app-paths-manifest.json` (JSON)
+            - 📄 `.next\dev\server\app\_not-found\page\build-manifest.json` (JSON)
+            - 📄 `.next\dev\server\app\_not-found\page\next-font-manifest.json` (JSON)
+            - 📄 `.next\dev\server\app\_not-found\page\react-loadable-manifest.json` (JSON)
+            - 📄 `.next\dev\server\app\_not-found\page\server-reference-manifest.json` (JSON)
+          - 📄 `.next\dev\server\app\_not-found\page_client-reference-manifest.js` (JavaScript)
+          - 📄 `.next\dev\server\app\_not-found\page.js` (JavaScript)
+            - *Exports:* `module.exports`
+          - 📄 `.next\dev\server\app\_not-found\page.js.map` (Unknown)
+        - 📁 `.next\dev\server\app\(app)/`
+          - 📁 `.next\dev\server\app\(app)\(root)/`
+            - 📁 `.next\dev\server\app\(app)\(root)\page/`
+              - 📄 `.next\dev\server\app\(app)\(root)\page\app-paths-manifest.json` (JSON)
+              - 📄 `.next\dev\server\app\(app)\(root)\page\build-manifest.json` (JSON)
+              - 📄 `.next\dev\server\app\(app)\(root)\page\next-font-manifest.json` (JSON)
+              - 📄 `.next\dev\server\app\(app)\(root)\page\react-loadable-manifest.json` (JSON)
+              - 📄 `.next\dev\server\app\(app)\(root)\page\server-reference-manifest.json` (JSON)
+            - 📄 `.next\dev\server\app\(app)\(root)\page_client-reference-manifest.js` (JavaScript)
+            - 📄 `.next\dev\server\app\(app)\(root)\page.js` (JavaScript)
+              - *Exports:* `module.exports`
+            - 📄 `.next\dev\server\app\(app)\(root)\page.js.map` (Unknown)
+        - 📁 `.next\dev\server\app\manifest.webmanifest/`
+          - 📁 `.next\dev\server\app\manifest.webmanifest\route/`
+            - 📄 `.next\dev\server\app\manifest.webmanifest\route\app-paths-manifest.json` (JSON)
+            - 📄 `.next\dev\server\app\manifest.webmanifest\route\build-manifest.json` (JSON)
+            - 📄 `.next\dev\server\app\manifest.webmanifest\route\server-reference-manifest.json` (JSON)
+          - 📄 `.next\dev\server\app\manifest.webmanifest\route_client-reference-manifest.js` (JavaScript)
+          - 📄 `.next\dev\server\app\manifest.webmanifest\route.js` (JavaScript)
+            - *Exports:* `module.exports`
+          - 📄 `.next\dev\server\app\manifest.webmanifest\route.js.map` (Unknown)
+      - 📁 `.next\dev\server\chunks/`
+        - 📁 `.next\dev\server\chunks\ssr/`
+          - 📄 `.next\dev\server\chunks\ssr\_next-internal_server_app__not-found_page_actions_554ec2bf.js` (JavaScript)
+            - *Exports:* `module.exports`
+          - 📄 `.next\dev\server\chunks\ssr\_next-internal_server_app__not-found_page_actions_554ec2bf.js.map` (Unknown)
+          - 📄 `.next\dev\server\chunks\ssr\_next-internal_server_app_(app)_(root)_page_actions_4b192ea6.js` (JavaScript)
+            - *Exports:* `module.exports`
+          - 📄 `.next\dev\server\chunks\ssr\_next-internal_server_app_(app)_(root)_page_actions_4b192ea6.js.map` (Unknown)
+          - 📄 `.next\dev\server\chunks\ssr\[externals]_next_dist_shared_lib_no-fallback-error_external_59b92b38.js` (JavaScript)
+            - *Exports:* `module.exports`, `module.exports`
+          - 📄 `.next\dev\server\chunks\ssr\[externals]_next_dist_shared_lib_no-fallback-error_external_59b92b38.js.map` (Unknown)
+          - 📄 `.next\dev\server\chunks\ssr\[root-of-the-server]__0dd3794a._.js` (JavaScript)
+            - *Exports:* `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`
+          - 📄 `.next\dev\server\chunks\ssr\[root-of-the-server]__0dd3794a._.js.map` (Unknown)
+          - 📄 `.next\dev\server\chunks\ssr\[root-of-the-server]__1aaf5479._.js` (JavaScript)
+            - *Exports:* `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`
+          - 📄 `.next\dev\server\chunks\ssr\[root-of-the-server]__1aaf5479._.js.map` (Unknown)
+          - 📄 `.next\dev\server\chunks\ssr\[root-of-the-server]__25cd0d32._.js` (JavaScript)
+            - *Exports:* `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`
+          - 📄 `.next\dev\server\chunks\ssr\[root-of-the-server]__25cd0d32._.js.map` (Unknown)
+          - 📄 `.next\dev\server\chunks\ssr\[root-of-the-server]__7f148858._.js` (JavaScript)
+            - *Exports:* `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`
+          - 📄 `.next\dev\server\chunks\ssr\[root-of-the-server]__7f148858._.js.map` (Unknown)
+          - 📄 `.next\dev\server\chunks\ssr\[root-of-the-server]__a4763a13._.js` (JavaScript)
+            - *Exports:* `module.exports`, `module.exports`
+          - 📄 `.next\dev\server\chunks\ssr\[root-of-the-server]__a4763a13._.js.map` (Unknown)
+          - 📄 `.next\dev\server\chunks\ssr\[root-of-the-server]__ad23905c._.js` (JavaScript)
+            - *Exports:* `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`
+          - 📄 `.next\dev\server\chunks\ssr\[root-of-the-server]__ad23905c._.js.map` (Unknown)
+          - 📄 `.next\dev\server\chunks\ssr\[root-of-the-server]__c41835b5._.js` (JavaScript)
+            - *Exports:* `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`
+          - 📄 `.next\dev\server\chunks\ssr\[root-of-the-server]__c41835b5._.js.map` (Unknown)
+          - 📄 `.next\dev\server\chunks\ssr\[root-of-the-server]__e6a4d965._.js` (JavaScript)
+            - *Exports:* `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`
+          - 📄 `.next\dev\server\chunks\ssr\[root-of-the-server]__e6a4d965._.js.map` (Unknown)
+          - 📄 `.next\dev\server\chunks\ssr\[root-of-the-server]__f0ceb24a._.js` (JavaScript)
+            - *Exports:* `module.exports`, `module.exports`, `module.exports`
+          - 📄 `.next\dev\server\chunks\ssr\[root-of-the-server]__f0ceb24a._.js.map` (Unknown)
+          - 📄 `.next\dev\server\chunks\ssr\[turbopack]_runtime.js` (JavaScript)
+            - *Imports:* `path`, `fs`, `stream`, `url`
+            - *Exports:* `module.exports`, `module.exports`, `module.exports`, `module.exports`
+          - 📄 `.next\dev\server\chunks\ssr\[turbopack]_runtime.js.map` (Unknown)
+          - 📄 `.next\dev\server\chunks\ssr\0894d_tailwind-merge_dist_bundle-mjs_mjs_f8727a1d._.js` (JavaScript)
+            - *Exports:* `module.exports`
+          - 📄 `.next\dev\server\chunks\ssr\0894d_tailwind-merge_dist_bundle-mjs_mjs_f8727a1d._.js.map` (Unknown)
+          - 📄 `.next\dev\server\chunks\ssr\0eb26_parse5_dist_661a3f1e._.js` (JavaScript)
+            - *Exports:* `module.exports`
+          - 📄 `.next\dev\server\chunks\ssr\0eb26_parse5_dist_661a3f1e._.js.map` (Unknown)
+          - 📄 `.next\dev\server\chunks\ssr\13c97_next_22489fea._.js` (JavaScript)
+            - *Exports:* `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`
+            - *Routes Provided:* `GET /_next/image`
+          - 📄 `.next\dev\server\chunks\ssr\13c97_next_22489fea._.js.map` (Unknown)
+          - 📄 `.next\dev\server\chunks\ssr\13c97_next_3d09291b._.js` (JavaScript)
+            - *Exports:* `module.exports`, `module.exports`, `module.exports`
+          - 📄 `.next\dev\server\chunks\ssr\13c97_next_3d09291b._.js.map` (Unknown)
+          - 📄 `.next\dev\server\chunks\ssr\13c97_next_401b8280._.js` (JavaScript)
+            - *Exports:* `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`
+            - *Routes Provided:* `GET /`, `GET /`, `GET /_next/image`
+          - 📄 `.next\dev\server\chunks\ssr\13c97_next_401b8280._.js.map` (Unknown)
+          - 📄 `.next\dev\server\chunks\ssr\13c97_next_44605883._.js` (JavaScript)
+            - *Exports:* `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`
+          - 📄 `.next\dev\server\chunks\ssr\13c97_next_44605883._.js.map` (Unknown)
+          - 📄 `.next\dev\server\chunks\ssr\13c97_next_71cfed1f._.js` (JavaScript)
+            - *Exports:* `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`
+          - 📄 `.next\dev\server\chunks\ssr\13c97_next_71cfed1f._.js.map` (Unknown)
+          - 📄 `.next\dev\server\chunks\ssr\13c97_next_dist_536cf995._.js` (JavaScript)
+          - 📄 `.next\dev\server\chunks\ssr\13c97_next_dist_536cf995._.js.map` (Unknown)
+          - 📄 `.next\dev\server\chunks\ssr\13c97_next_dist_9ea1c2bd._.js` (JavaScript)
+            - *Exports:* `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`
+            - *Routes Provided:* `GET /`, `GET /`
+          - 📄 `.next\dev\server\chunks\ssr\13c97_next_dist_9ea1c2bd._.js.map` (Unknown)
+          - 📄 `.next\dev\server\chunks\ssr\13c97_next_dist_a924bf9d._.js` (JavaScript)
+          - 📄 `.next\dev\server\chunks\ssr\13c97_next_dist_a924bf9d._.js.map` (Unknown)
+          - 📄 `.next\dev\server\chunks\ssr\13c97_next_dist_client_components_builtin_global-error_a2634d79.js` (JavaScript)
+            - *Exports:* `module.exports`
+          - 📄 `.next\dev\server\chunks\ssr\13c97_next_dist_client_components_builtin_global-error_a2634d79.js.map` (Unknown)
+          - 📄 `.next\dev\server\chunks\ssr\13c97_next_dist_client_components_builtin_unauthorized_5530e7d2.js` (JavaScript)
+            - *Exports:* `module.exports`, `module.exports`
+          - 📄 `.next\dev\server\chunks\ssr\13c97_next_dist_client_components_builtin_unauthorized_5530e7d2.js.map` (Unknown)
+          - 📄 `.next\dev\server\chunks\ssr\13c97_next_dist_client_components_d6d75ecd._.js` (JavaScript)
+            - *Exports:* `module.exports`, `module.exports`, `module.exports`, `module.exports`
+          - 📄 `.next\dev\server\chunks\ssr\13c97_next_dist_client_components_d6d75ecd._.js.map` (Unknown)
+          - 📄 `.next\dev\server\chunks\ssr\13c97_next_dist_f23b0878._.js` (JavaScript)
+            - *Exports:* `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`
+          - 📄 `.next\dev\server\chunks\ssr\13c97_next_dist_f23b0878._.js.map` (Unknown)
+          - 📄 `.next\dev\server\chunks\ssr\13c97_next_dist_fe71d182._.js` (JavaScript)
+            - *Exports:* `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`
+          - 📄 `.next\dev\server\chunks\ssr\13c97_next_dist_fe71d182._.js.map` (Unknown)
+          - 📄 `.next\dev\server\chunks\ssr\8805a_motion_dist_es_1448f352._.js` (JavaScript)
+          - 📄 `.next\dev\server\chunks\ssr\8805a_motion_dist_es_1448f352._.js.map` (Unknown)
+          - 📄 `.next\dev\server\chunks\ssr\b5ecd_micromark-core-commonmark_dev_lib_74880afd._.js` (JavaScript)
+            - *Exports:* `module.exports`
+          - 📄 `.next\dev\server\chunks\ssr\b5ecd_micromark-core-commonmark_dev_lib_74880afd._.js.map` (Unknown)
+          - 📄 `.next\dev\server\chunks\ssr\node_modules__pnpm_1687afe7._.js` (JavaScript)
+          - 📄 `.next\dev\server\chunks\ssr\node_modules__pnpm_1687afe7._.js.map` (Unknown)
+          - 📄 `.next\dev\server\chunks\ssr\node_modules__pnpm_369d13fe._.js` (JavaScript)
+            - *Exports:* `module.exports`
+          - 📄 `.next\dev\server\chunks\ssr\node_modules__pnpm_369d13fe._.js.map` (Unknown)
+          - 📄 `.next\dev\server\chunks\ssr\node_modules__pnpm_3dc88cb8._.js` (JavaScript)
+            - *Exports:* `module.exports`
+          - 📄 `.next\dev\server\chunks\ssr\node_modules__pnpm_3dc88cb8._.js.map` (Unknown)
+          - 📄 `.next\dev\server\chunks\ssr\node_modules__pnpm_3f8ec237._.js` (JavaScript)
+            - *Exports:* `module.exports`, `module.exports`
+          - 📄 `.next\dev\server\chunks\ssr\node_modules__pnpm_3f8ec237._.js.map` (Unknown)
+          - 📄 `.next\dev\server\chunks\ssr\node_modules__pnpm_49d52c59._.js` (JavaScript)
+            - *Exports:* `module.exports`
+          - 📄 `.next\dev\server\chunks\ssr\node_modules__pnpm_49d52c59._.js.map` (Unknown)
+          - 📄 `.next\dev\server\chunks\ssr\node_modules__pnpm_7904ce8e._.js` (JavaScript)
+            - *Exports:* `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`
+          - 📄 `.next\dev\server\chunks\ssr\node_modules__pnpm_7904ce8e._.js.map` (Unknown)
+          - 📄 `.next\dev\server\chunks\ssr\node_modules__pnpm_8424e29f._.js` (JavaScript)
+            - *Exports:* `module.exports`, `module.exports`
+          - 📄 `.next\dev\server\chunks\ssr\node_modules__pnpm_8424e29f._.js.map` (Unknown)
+          - 📄 `.next\dev\server\chunks\ssr\node_modules__pnpm_de870305._.js` (JavaScript)
+            - *Exports:* `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`
+          - 📄 `.next\dev\server\chunks\ssr\node_modules__pnpm_de870305._.js.map` (Unknown)
+          - 📄 `.next\dev\server\chunks\ssr\node_modules__pnpm_f6c028d4._.js` (JavaScript)
+            - *Exports:* `module.exports`
+          - 📄 `.next\dev\server\chunks\ssr\node_modules__pnpm_f6c028d4._.js.map` (Unknown)
+          - 📄 `.next\dev\server\chunks\ssr\src_81fff62a._.js` (JavaScript)
+            - *Exports:* `module.exports`
+          - 📄 `.next\dev\server\chunks\ssr\src_81fff62a._.js.map` (Unknown)
+          - 📄 `.next\dev\server\chunks\ssr\src_cc1e003c._.js` (JavaScript)
+            - *Exports:* `module.exports`
+          - 📄 `.next\dev\server\chunks\ssr\src_cc1e003c._.js.map` (Unknown)
+          - 📄 `.next\dev\server\chunks\ssr\src_ce1e686e._.js` (JavaScript)
+            - *Exports:* `module.exports`
+          - 📄 `.next\dev\server\chunks\ssr\src_ce1e686e._.js.map` (Unknown)
+          - 📄 `.next\dev\server\chunks\ssr\src_components_brand-context-menu_tsx_7a94fee2._.js` (JavaScript)
+            - *Exports:* `module.exports`
+          - 📄 `.next\dev\server\chunks\ssr\src_components_brand-context-menu_tsx_7a94fee2._.js.map` (Unknown)
+          - 📄 `.next\dev\server\chunks\ssr\src_components_brand-context-menu_tsx_7dce95a8._.js` (JavaScript)
+            - *Exports:* `module.exports`
+          - 📄 `.next\dev\server\chunks\ssr\src_components_brand-context-menu_tsx_7dce95a8._.js.map` (Unknown)
+          - 📄 `.next\dev\server\chunks\ssr\src_components_brand-context-menu_tsx_a39af33c._.js` (JavaScript)
+            - *Exports:* `module.exports`
+          - 📄 `.next\dev\server\chunks\ssr\src_components_brand-context-menu_tsx_a39af33c._.js.map` (Unknown)
+          - 📄 `.next\dev\server\chunks\ssr\src_components_command-menu_tsx_e5211ed5._.js` (JavaScript)
+            - *Exports:* `module.exports`
+          - 📄 `.next\dev\server\chunks\ssr\src_components_command-menu_tsx_e5211ed5._.js.map` (Unknown)
+          - 📄 `.next\dev\server\chunks\ssr\src_components_db6a9f87._.js` (JavaScript)
+            - *Exports:* `module.exports`
+          - 📄 `.next\dev\server\chunks\ssr\src_components_db6a9f87._.js.map` (Unknown)
+          - 📄 `.next\dev\server\chunks\ssr\src_components_mobile-nav_tsx_5c3ee51a._.js` (JavaScript)
+            - *Exports:* `module.exports`
+          - 📄 `.next\dev\server\chunks\ssr\src_components_mobile-nav_tsx_5c3ee51a._.js.map` (Unknown)
+          - 📄 `.next\dev\server\chunks\ssr\src_components_scroll-top_tsx_8bdfe2e0._.js` (JavaScript)
+            - *Exports:* `module.exports`
+          - 📄 `.next\dev\server\chunks\ssr\src_components_scroll-top_tsx_8bdfe2e0._.js.map` (Unknown)
+          - 📄 `.next\dev\server\chunks\ssr\src_dd7f9dad._.js` (JavaScript)
+            - *Exports:* `module.exports`
+          - 📄 `.next\dev\server\chunks\ssr\src_dd7f9dad._.js.map` (Unknown)
+        - 📄 `.next\dev\server\chunks\_next-internal_server_app_manifest_webmanifest_route_actions_1bff3fca.js` (JavaScript)
+          - *Exports:* `module.exports`
+        - 📄 `.next\dev\server\chunks\_next-internal_server_app_manifest_webmanifest_route_actions_1bff3fca.js.map` (Unknown)
+        - 📄 `.next\dev\server\chunks\[root-of-the-server]__abbd4031._.js` (JavaScript)
+          - *Exports:* `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`
+        - 📄 `.next\dev\server\chunks\[root-of-the-server]__abbd4031._.js.map` (Unknown)
+        - 📄 `.next\dev\server\chunks\[turbopack]_runtime.js` (JavaScript)
+          - *Imports:* `path`, `fs`, `stream`, `url`
+          - *Exports:* `module.exports`, `module.exports`, `module.exports`, `module.exports`
+        - 📄 `.next\dev\server\chunks\[turbopack]_runtime.js.map` (Unknown)
+        - 📄 `.next\dev\server\chunks\13c97_next_c1b3f599._.js` (JavaScript)
+          - *Exports:* `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`
+          - *Routes Provided:* `GET /`, `GET /`
+        - 📄 `.next\dev\server\chunks\13c97_next_c1b3f599._.js.map` (Unknown)
+      - 📁 `.next\dev\server\pages/`
+        - 📁 `.next\dev\server\pages\_app/`
+          - 📄 `.next\dev\server\pages\_app\build-manifest.json` (JSON)
+          - 📄 `.next\dev\server\pages\_app\client-build-manifest.json` (JSON)
+          - 📄 `.next\dev\server\pages\_app\next-font-manifest.json` (JSON)
+          - 📄 `.next\dev\server\pages\_app\pages-manifest.json` (JSON)
+          - 📄 `.next\dev\server\pages\_app\react-loadable-manifest.json` (JSON)
+        - 📁 `.next\dev\server\pages\_document/`
+          - 📄 `.next\dev\server\pages\_document\next-font-manifest.json` (JSON)
+          - 📄 `.next\dev\server\pages\_document\pages-manifest.json` (JSON)
+          - 📄 `.next\dev\server\pages\_document\react-loadable-manifest.json` (JSON)
+        - 📁 `.next\dev\server\pages\_error/`
+          - 📄 `.next\dev\server\pages\_error\build-manifest.json` (JSON)
+          - 📄 `.next\dev\server\pages\_error\client-build-manifest.json` (JSON)
+          - 📄 `.next\dev\server\pages\_error\next-font-manifest.json` (JSON)
+          - 📄 `.next\dev\server\pages\_error\pages-manifest.json` (JSON)
+          - 📄 `.next\dev\server\pages\_error\react-loadable-manifest.json` (JSON)
+        - 📄 `.next\dev\server\pages\_app.js` (JavaScript)
+          - *Exports:* `module.exports`
+          - *Routes Provided:* `GET /_app`
+        - 📄 `.next\dev\server\pages\_app.js.map` (Unknown)
+        - 📄 `.next\dev\server\pages\_document.js` (JavaScript)
+          - *Exports:* `module.exports`
+          - *Routes Provided:* `GET /_document`
+        - 📄 `.next\dev\server\pages\_document.js.map` (Unknown)
+        - 📄 `.next\dev\server\pages\_error.js` (JavaScript)
+          - *Exports:* `module.exports`
+          - *Routes Provided:* `GET /_error`
+        - 📄 `.next\dev\server\pages\_error.js.map` (Unknown)
+      - 📄 `.next\dev\server\app-paths-manifest.json` (JSON)
+      - 📄 `.next\dev\server\interception-route-rewrite-manifest.js` (JavaScript)
+      - 📄 `.next\dev\server\middleware-build-manifest.js` (JavaScript)
+      - 📄 `.next\dev\server\middleware-manifest.json` (JSON)
+      - 📄 `.next\dev\server\next-font-manifest.js` (JavaScript)
+      - 📄 `.next\dev\server\next-font-manifest.json` (JSON)
+      - 📄 `.next\dev\server\pages-manifest.json` (JSON)
+      - 📄 `.next\dev\server\server-reference-manifest.js` (JavaScript)
+      - 📄 `.next\dev\server\server-reference-manifest.json` (JSON)
+    - 📁 `.next\dev\static/`
+      - 📁 `.next\dev\static\chunks/`
+        - 📁 `.next\dev\static\chunks\pages/`
+          - 📄 `.next\dev\static\chunks\pages\_app.js` (JavaScript)
+            - *Routes Provided:* `GET /_app`
+          - 📄 `.next\dev\static\chunks\pages\_error.js` (JavaScript)
+            - *Routes Provided:* `GET /_error`
+        - 📄 `.next\dev\static\chunks\_03f65e42._.js.map` (Unknown)
+        - 📄 `.next\dev\static\chunks\_a0ff3932._.js` (JavaScript)
+        - 📄 `.next\dev\static\chunks\[next]_entry_page-loader_ts_6eeac832._.js` (JavaScript)
+        - 📄 `.next\dev\static\chunks\[next]_entry_page-loader_ts_6eeac832._.js.map` (Unknown)
+        - 📄 `.next\dev\static\chunks\[next]_entry_page-loader_ts_cd766270._.js` (JavaScript)
+        - 📄 `.next\dev\static\chunks\[next]_entry_page-loader_ts_cd766270._.js.map` (Unknown)
+        - 📄 `.next\dev\static\chunks\[next]_internal_font_google_ibm_plex_sans_2fc5a022_module_css_bad6b30c._.single.css` (CSS)
+        - 📄 `.next\dev\static\chunks\[next]_internal_font_google_ibm_plex_sans_2fc5a022_module_css_bad6b30c._.single.css.map` (Unknown)
+        - 📄 `.next\dev\static\chunks\[root-of-the-server]__092393de._.js` (JavaScript)
+        - 📄 `.next\dev\static\chunks\[root-of-the-server]__092393de._.js.map` (Unknown)
+        - 📄 `.next\dev\static\chunks\[root-of-the-server]__44084211._.css` (CSS)
+        - 📄 `.next\dev\static\chunks\[root-of-the-server]__44084211._.css.map` (Unknown)
+        - 📄 `.next\dev\static\chunks\[root-of-the-server]__45f039c3._.js` (JavaScript)
+        - 📄 `.next\dev\static\chunks\[root-of-the-server]__45f039c3._.js.map` (Unknown)
+        - 📄 `.next\dev\static\chunks\[turbopack]_browser_dev_hmr-client_hmr-client_ts_237f5b93._.js` (JavaScript)
+        - 📄 `.next\dev\static\chunks\[turbopack]_browser_dev_hmr-client_hmr-client_ts_bb02c02d._.js` (JavaScript)
+        - 📄 `.next\dev\static\chunks\[turbopack]_browser_dev_hmr-client_hmr-client_ts_bb02c02d._.js.map` (Unknown)
+        - 📄 `.next\dev\static\chunks\[turbopack]_browser_dev_hmr-client_hmr-client_ts_c8c997ce._.js` (JavaScript)
+        - 📄 `.next\dev\static\chunks\[turbopack]_browser_dev_hmr-client_hmr-client_ts_c8c997ce._.js.map` (Unknown)
+        - 📄 `.next\dev\static\chunks\01e4c_react-dom_c6220206._.js` (JavaScript)
+          - *Exports:* `module.exports`, `module.exports`
+          - *Routes Provided:* `GET clipPath`
+        - 📄 `.next\dev\static\chunks\01e4c_react-dom_c6220206._.js.map` (Unknown)
+        - 📄 `.next\dev\static\chunks\0894d_tailwind-merge_dist_bundle-mjs_mjs_705de4d7._.js` (JavaScript)
+        - 📄 `.next\dev\static\chunks\0894d_tailwind-merge_dist_bundle-mjs_mjs_705de4d7._.js.map` (Unknown)
+        - 📄 `.next\dev\static\chunks\13c97_next_app_bf774024.js` (JavaScript)
+          - *Exports:* `module.exports`
+        - 📄 `.next\dev\static\chunks\13c97_next_app_bf774024.js.map` (Unknown)
+        - 📄 `.next\dev\static\chunks\13c97_next_b684f117._.js` (JavaScript)
+          - *Exports:* `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`
+        - 📄 `.next\dev\static\chunks\13c97_next_b684f117._.js.map` (Unknown)
+        - 📄 `.next\dev\static\chunks\13c97_next_d230c12c._.js` (JavaScript)
+          - *Exports:* `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`
+        - 📄 `.next\dev\static\chunks\13c97_next_d230c12c._.js.map` (Unknown)
+        - 📄 `.next\dev\static\chunks\13c97_next_dist_28814d63._.js` (JavaScript)
+          - *Exports:* `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`
+        - 📄 `.next\dev\static\chunks\13c97_next_dist_28814d63._.js.map` (Unknown)
+        - 📄 `.next\dev\static\chunks\13c97_next_dist_59e173b1._.js` (JavaScript)
+          - *Exports:* `module.exports`, `module.exports`
+        - 📄 `.next\dev\static\chunks\13c97_next_dist_59e173b1._.js.map` (Unknown)
+        - 📄 `.next\dev\static\chunks\13c97_next_dist_build_polyfills_polyfill-nomodule.js` (JavaScript)
+        - 📄 `.next\dev\static\chunks\13c97_next_dist_client_0110039d._.js` (JavaScript)
+          - *Exports:* `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`
+          - *Routes Provided:* `GET /_next/webpack-hmr`
+        - 📄 `.next\dev\static\chunks\13c97_next_dist_client_0110039d._.js.map` (Unknown)
+        - 📄 `.next\dev\static\chunks\13c97_next_dist_client_6f08eec9._.js` (JavaScript)
+          - *Exports:* `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`
+        - 📄 `.next\dev\static\chunks\13c97_next_dist_client_6f08eec9._.js.map` (Unknown)
+        - 📄 `.next\dev\static\chunks\13c97_next_dist_client_components_builtin_global-error_25a8c8c3.js` (JavaScript)
+        - 📄 `.next\dev\static\chunks\13c97_next_dist_compiled_7fb501e1._.js` (JavaScript)
+          - *Exports:* `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`
+        - 📄 `.next\dev\static\chunks\13c97_next_dist_compiled_7fb501e1._.js.map` (Unknown)
+        - 📄 `.next\dev\static\chunks\13c97_next_dist_compiled_e1cfae26._.js` (JavaScript)
+          - *Exports:* `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`
+          - *Routes Consumed:* `/__nextjs_original-stack-frames`, `/__nextjs_devtools_config`, `/__nextjs_server_status`, `/__nextjs_server_status`, `/__nextjs_disable_dev_indicator`
+        - 📄 `.next\dev\static\chunks\13c97_next_dist_compiled_e1cfae26._.js.map` (Unknown)
+        - 📄 `.next\dev\static\chunks\13c97_next_dist_compiled_next-devtools_index_7e181329.js` (JavaScript)
+          - *Routes Consumed:* `/__nextjs_original-stack-frames`, `/__nextjs_devtools_config`, `/__nextjs_server_status`, `/__nextjs_server_status`, `/__nextjs_disable_dev_indicator`
+        - 📄 `.next\dev\static\chunks\13c97_next_dist_compiled_next-devtools_index_7e181329.js.map` (Unknown)
+        - 📄 `.next\dev\static\chunks\13c97_next_dist_compiled_react-dom_6c91e432._.js` (JavaScript)
+          - *Exports:* `module.exports`, `module.exports`
+          - *Routes Provided:* `GET clipPath`
+        - 📄 `.next\dev\static\chunks\13c97_next_dist_compiled_react-dom_6c91e432._.js.map` (Unknown)
+        - 📄 `.next\dev\static\chunks\13c97_next_dist_compiled_react-server-dom-turbopack_07a96b7c._.js` (JavaScript)
+          - *Exports:* `module.exports`, `module.exports`
+        - 📄 `.next\dev\static\chunks\13c97_next_dist_compiled_react-server-dom-turbopack_07a96b7c._.js.map` (Unknown)
+        - 📄 `.next\dev\static\chunks\13c97_next_dist_e745488d._.js` (JavaScript)
+          - *Exports:* `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`
+        - 📄 `.next\dev\static\chunks\13c97_next_dist_e745488d._.js.map` (Unknown)
+        - 📄 `.next\dev\static\chunks\13c97_next_dist_e8538490._.js` (JavaScript)
+          - *Exports:* `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`
+        - 📄 `.next\dev\static\chunks\13c97_next_dist_e8538490._.js.map` (Unknown)
+        - 📄 `.next\dev\static\chunks\13c97_next_dist_feed45bb._.js` (JavaScript)
+          - *Exports:* `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`, `module.exports`
+        - 📄 `.next\dev\static\chunks\13c97_next_dist_feed45bb._.js.map` (Unknown)
+        - 📄 `.next\dev\static\chunks\13c97_next_dist_shared_lib_8d1311eb._.js` (JavaScript)
+          - *Exports:* `module.exports`, `module.exports`
+          - *Routes Provided:* `GET /_next/image`
+        - 📄 `.next\dev\static\chunks\13c97_next_dist_shared_lib_8d1311eb._.js.map` (Unknown)
+        - 📄 `.next\dev\static\chunks\13c97_next_dist_shared_lib_fad8899b._.js` (JavaScript)
+          - *Exports:* `module.exports`, `module.exports`, `module.exports`
+          - *Routes Provided:* `GET /_next/image`
+        - 📄 `.next\dev\static\chunks\13c97_next_dist_shared_lib_fad8899b._.js.map` (Unknown)
+        - 📄 `.next\dev\static\chunks\13c97_next_error_dbf3d9b0.js` (JavaScript)
+          - *Exports:* `module.exports`
+        - 📄 `.next\dev\static\chunks\13c97_next_error_dbf3d9b0.js.map` (Unknown)
+        - 📄 `.next\dev\static\chunks\69652_@swc_helpers_cjs_679851cc._.js` (JavaScript)
+        - 📄 `.next\dev\static\chunks\69652_@swc_helpers_cjs_679851cc._.js.map` (Unknown)
+        - 📄 `.next\dev\static\chunks\8805a_motion_dist_es_551493e8._.js` (JavaScript)
+        - 📄 `.next\dev\static\chunks\8805a_motion_dist_es_551493e8._.js.map` (Unknown)
+        - 📄 `.next\dev\static\chunks\d9675_geist_dist_geistmono_157ca88a_module_css_bad6b30c._.single.css` (CSS)
+        - 📄 `.next\dev\static\chunks\d9675_geist_dist_geistmono_157ca88a_module_css_bad6b30c._.single.css.map` (Unknown)
+        - 📄 `.next\dev\static\chunks\node_modules__pnpm_749909ab._.js` (JavaScript)
+        - 📄 `.next\dev\static\chunks\node_modules__pnpm_749909ab._.js.map` (Unknown)
+        - 📄 `.next\dev\static\chunks\node_modules__pnpm_7d6717e5._.js` (JavaScript)
+        - 📄 `.next\dev\static\chunks\node_modules__pnpm_7d6717e5._.js.map` (Unknown)
+        - 📄 `.next\dev\static\chunks\node_modules__pnpm_80b42112._.js` (JavaScript)
+        - 📄 `.next\dev\static\chunks\node_modules__pnpm_80b42112._.js.map` (Unknown)
+        - 📄 `.next\dev\static\chunks\node_modules__pnpm_a1ac3f76._.js` (JavaScript)
+          - *Exports:* `module.exports`, `module.exports`, `module.exports`
+        - 📄 `.next\dev\static\chunks\node_modules__pnpm_a1ac3f76._.js.map` (Unknown)
+        - 📄 `.next\dev\static\chunks\pages__app_2da965e7._.js` (JavaScript)
+        - 📄 `.next\dev\static\chunks\pages__app_8d479c1f._.js.map` (Unknown)
+        - 📄 `.next\dev\static\chunks\pages__error_2da965e7._.js` (JavaScript)
+        - 📄 `.next\dev\static\chunks\pages__error_b1e4ccf0._.js.map` (Unknown)
+        - 📄 `.next\dev\static\chunks\src_315c0ee7._.js` (JavaScript)
+        - 📄 `.next\dev\static\chunks\src_315c0ee7._.js.map` (Unknown)
+        - 📄 `.next\dev\static\chunks\src_aefda9fc._.js` (JavaScript)
+        - 📄 `.next\dev\static\chunks\src_aefda9fc._.js.map` (Unknown)
+        - 📄 `.next\dev\static\chunks\src_app_(app)_(root)_page_tsx_02125448._.js` (JavaScript)
+        - 📄 `.next\dev\static\chunks\src_app_(app)_layout_tsx_f562caf4._.js` (JavaScript)
+        - 📄 `.next\dev\static\chunks\src_app_layout_tsx_25a8c8c3._.js` (JavaScript)
+        - 📄 `.next\dev\static\chunks\src_app_not-found_tsx_d87a3a68._.js` (JavaScript)
+        - 📄 `.next\dev\static\chunks\src_app_not-found_tsx_f562caf4._.js` (JavaScript)
+        - 📄 `.next\dev\static\chunks\src_ec6005e3._.js` (JavaScript)
+        - 📄 `.next\dev\static\chunks\src_ec6005e3._.js.map` (Unknown)
+        - 📄 `.next\dev\static\chunks\src_styles_globals_css_bad6b30c._.single.css` (CSS)
+        - 📄 `.next\dev\static\chunks\src_styles_globals_css_bad6b30c._.single.css.map` (Unknown)
+        - 📄 `.next\dev\static\chunks\turbopack-_03f65e42._.js` (JavaScript)
+          - *Exports:* `module.exports`, `module.exports`, `module.exports`
+        - 📄 `.next\dev\static\chunks\turbopack-pages__app_8d479c1f._.js` (JavaScript)
+          - *Exports:* `module.exports`, `module.exports`, `module.exports`
+        - 📄 `.next\dev\static\chunks\turbopack-pages__error_b1e4ccf0._.js` (JavaScript)
+          - *Exports:* `module.exports`, `module.exports`, `module.exports`
+      - 📁 `.next\dev\static\development/`
+        - 📄 `.next\dev\static\development\_buildManifest.js` (JavaScript)
+        - 📄 `.next\dev\static\development\_clientMiddlewareManifest.json` (JSON)
+        - 📄 `.next\dev\static\development\_ssgManifest.js` (JavaScript)
+      - 📁 `.next\dev\static\media/`
+        - 📄 `.next\dev\static\media\03fc1b4a8d284b5e-s.p.af4fcd24.woff2` (Unknown)
+        - 📄 `.next\dev\static\media\1bcd0e671759a44c-s.a3ed597e.woff2` (Unknown)
+        - 📄 `.next\dev\static\media\57215795b8570f5c-s.0f2c7ba8.woff2` (Unknown)
+        - 📄 `.next\dev\static\media\7fea77d1d19108bf-s.c949a514.woff2` (Unknown)
+        - 📄 `.next\dev\static\media\90c51ce8fb754fe8-s.323431dc.woff2` (Unknown)
+        - 📄 `.next\dev\static\media\e15f58668ad64cb8-s.319fa961.woff2` (Unknown)
+        - 📄 `.next\dev\static\media\GeistMono_Variable.p.73882635.woff2` (Unknown)
+    - 📁 `.next\dev\types/`
+      - 📄 `.next\dev\types\cache-life.d.ts` (TypeScript)
+        - *Imports:* `next/dist/server/use-cache/cache-tag`
+        - *Exports:* `* from next/dist/server/web/spec-extension/unstable-cache`, `* from next/dist/server/web/spec-extension/revalidate`, `* from next/dist/server/web/spec-extension/unstable-no-store`, `cacheLife`, `cacheLife`, `cacheLife`, `cacheLife`, `cacheLife`, `cacheLife`, `cacheLife`, `cacheLife`, `cacheTag`
+      - 📄 `.next\dev\types\routes.d.ts` (TypeScript)
+        - *Exports:* `AppRoutes`, `PageRoutes`, `LayoutRoutes`, `RedirectRoutes`, `RewriteRoutes`, `ParamMap`, `AppRouteHandlerRoutes`
+      - 📄 `.next\dev\types\validator.ts` (TypeScript)
+        - *Imports:* `./routes.js`, `next/types.js`, `next/server.js`
+    - 📄 `.next\dev\build-manifest.json` (JSON)
+    - 📄 `.next\dev\fallback-build-manifest.json` (JSON)
+    - 📄 `.next\dev\package.json` (JSON)
+    - 📄 `.next\dev\prerender-manifest.json` (JSON)
+    - 📄 `.next\dev\routes-manifest.json` (JSON)
+    - 📄 `.next\dev\trace` (Unknown)
+- 📁 `.vscode/`
+  - 📄 `.vscode\mcp.json` (JSON)
+  - 📄 `.vscode\settings.json` (JSON)
+- 📁 `public/`
+  - 📁 `public\images/`
+    - 📁 `public\images\brand/`
+      - 📄 `public\images\brand\favicon.svg` (Unknown)
+    - 📄 `public\images\me.png` (Unknown)
+- 📁 `src/`
+  - 📁 `src\__registry__/`
+    - 📄 `src\__registry__\.autogenerated` (Unknown)
+    - 📄 `src\__registry__\.gitkeep` (Unknown)
+    - 📄 `src\__registry__\index.tsx` (React TypeScript)
+      - *Imports:* `react`
+      - *Routes Provided:* `GET src/registry/src/lib/utils.ts`, `GET src/registry/src/hooks/use-layout-effect.tsx`, `GET src/registry/src/hooks/use-controllable-state.ts`, `GET src/registry/src/hooks/use-sound.ts`, `GET src/registry/theme-switcher/theme-switcher.tsx`, `GET src/registry/flip-sentences/flip-sentences.tsx`, `GET src/registry/apple-hello-effect/apple-hello-effect.tsx`, `GET src/registry/wheel-picker/wheel-picker.tsx`, `GET src/registry/work-experience/work-experience.tsx`, `GET src/registry/shimmering-text/shimmering-text.tsx`, `GET src/registry/slide-to-unlock/slide-to-unlock.tsx`, `GET src/registry/testimonials-marquee/testimonials-marquee.tsx`, `GET src/registry/examples/wheel-picker-demo.tsx`, `GET src/registry/examples/wheel-picker-form-demo.tsx`, `GET src/registry/examples/work-experience-demo.tsx`, `GET src/registry/examples/slide-to-unlock-demo-01.tsx`, `GET src/registry/examples/slide-to-unlock-demo-02.tsx`, `GET src/registry/examples/slide-to-unlock-demo-03.tsx`, `GET src/registry/examples/testimonials-marquee-demo-01.tsx`, `GET src/registry/examples/testimonials-marquee-demo-02.tsx`, `GET src/registry/examples/apple-hello-effect-vi-demo.tsx`, `GET src/registry/examples/apple-hello-effect-en-demo.tsx`, `GET src/registry/examples/theme-switcher-demo.tsx`, `GET src/registry/examples/wheel-picker-demo.tsx`, `GET src/registry/examples/wheel-picker-form-demo.tsx`, `GET src/registry/examples/work-experience-demo.tsx`, `GET src/registry/examples/shimmering-text-demo.tsx`, `GET src/registry/examples/slide-to-unlock-demo-01.tsx`, `GET src/registry/examples/slide-to-unlock-demo-02.tsx`, `GET src/registry/examples/slide-to-unlock-demo-03.tsx`, `GET src/registry/examples/testimonials-marquee-demo-01.tsx`, `GET src/registry/examples/testimonials-marquee-demo-02.tsx`, `GET src/registry/src/lib/utils.ts`, `GET src/registry/src/hooks/use-layout-effect.tsx`, `GET src/registry/src/hooks/use-controllable-state.ts`, `GET src/registry/src/hooks/use-sound.ts`, `GET src/registry/theme-switcher/theme-switcher.tsx`, `GET src/registry/flip-sentences/flip-sentences.tsx`, `GET src/registry/apple-hello-effect/apple-hello-effect.tsx`, `GET src/registry/wheel-picker/wheel-picker.tsx`, `GET src/registry/work-experience/work-experience.tsx`, `GET src/registry/shimmering-text/shimmering-text.tsx`, `GET src/registry/slide-to-unlock/slide-to-unlock.tsx`, `GET src/registry/testimonials-marquee/testimonials-marquee.tsx`, `GET src/registry/examples/wheel-picker-demo.tsx`, `GET src/registry/examples/wheel-picker-form-demo.tsx`, `GET src/registry/examples/work-experience-demo.tsx`, `GET src/registry/examples/slide-to-unlock-demo-01.tsx`, `GET src/registry/examples/slide-to-unlock-demo-02.tsx`, `GET src/registry/examples/slide-to-unlock-demo-03.tsx`, `GET src/registry/examples/testimonials-marquee-demo-01.tsx`, `GET src/registry/examples/testimonials-marquee-demo-02.tsx`, `GET src/registry/examples/apple-hello-effect-vi-demo.tsx`, `GET src/registry/examples/apple-hello-effect-en-demo.tsx`, `GET src/registry/examples/theme-switcher-demo.tsx`, `GET src/registry/examples/wheel-picker-demo.tsx`, `GET src/registry/examples/wheel-picker-form-demo.tsx`, `GET src/registry/examples/work-experience-demo.tsx`, `GET src/registry/examples/shimmering-text-demo.tsx`, `GET src/registry/examples/slide-to-unlock-demo-01.tsx`, `GET src/registry/examples/slide-to-unlock-demo-02.tsx`, `GET src/registry/examples/slide-to-unlock-demo-03.tsx`, `GET src/registry/examples/testimonials-marquee-demo-01.tsx`, `GET src/registry/examples/testimonials-marquee-demo-02.tsx`
+    - 📄 `src\__registry__\README.md` (Markdown)
+    - 📄 `src\__registry__\registry.autogenerated.json` (JSON)
+  - 📁 `src\app/`
+    - 📁 `src\app\(app)/`
+      - 📁 `src\app\(app)\(root)/`
+        - 📄 `src\app\(app)\(root)\page.tsx` (React TypeScript)
+          - *Imports:* `dayjs`, `schema-dts`, `@/features/profile/components/about`, `@/features/profile/components/awards`, `@/features/profile/components/brand`, `@/features/profile/components/experiences`, `@/features/profile/components/github-contributions`, `@/features/profile/components/overview`, `@/features/profile/components/profile-cover`, `@/features/profile/components/profile-header`, `@/features/profile/components/projects`, `@/features/profile/components/social-links`, `@/features/profile/components/teck-stack`, `@/features/profile/data/user`, `@/lib/utils`
+          - *Exports:* `Page`
+      - 📄 `src\app\(app)\layout.tsx` (React TypeScript)
+        - *Imports:* `next/dynamic`, `@/components/site-footer`, `@/components/site-header`
+        - *Exports:* `AppLayout`
+    - 📁 `src\app\og/`
+      - 📁 `src\app\og\domain/`
+        - 📄 `src\app\og\domain\route.tsx` (React TypeScript)
+          - *Imports:* `node:fs/promises`, `node:path`, `next/og`
+          - *Exports:* `GET`
+      - 📁 `src\app\og\simple/`
+        - 📄 `src\app\og\simple\route.tsx` (React TypeScript)
+          - *Imports:* `node:fs/promises`, `node:path`, `next/og`
+          - *Exports:* `GET`
+      - 📄 `src\app\og\page.tsx` (React TypeScript)
+        - *Imports:* `@/features/profile/components/overview`, `@/features/profile/components/profile-header`, `@/lib/utils`
+        - *Exports:* `Page`
+    - 📁 `src\app\vcard/`
+      - 📄 `src\app\vcard\route.ts` (TypeScript)
+        - *Imports:* `next/server`, `sharp`, `vcard-creator`, `@/features/profile/data/user`, `@/utils/string`
+        - *Exports:* `GET`
+    - 📄 `src\app\layout.tsx` (React TypeScript)
+      - *Imports:* `@/styles/globals.css`, `next`, `next/script`, `schema-dts`, `@/components/providers`, `@/config/site`, `@/features/profile/data/user`, `@/lib/fonts`
+      - *Exports:* `RootLayout`
+    - 📄 `src\app\manifest.ts` (TypeScript)
+      - *Imports:* `next`, `@/config/site`
+      - *Exports:* `manifest`
+    - 📄 `src\app\not-found.tsx` (React TypeScript)
+      - *Imports:* `@/components/not-found`
+      - *Exports:* `NotFound`
+    - 📄 `src\app\robots.ts` (TypeScript)
+      - *Imports:* `next`, `@/config/site`
+      - *Exports:* `robots`
+    - 📄 `src\app\sitemap.ts` (TypeScript)
+      - *Imports:* `dayjs`, `next`, `@/config/site`
+      - *Exports:* `sitemap`
+  - 📁 `src\assets/`
+    - 📁 `src\assets\fonts/`
+      - 📄 `src\assets\fonts\Magistral-Medium.ttf` (Unknown)
+      - 📄 `src\assets\fonts\Roboto-Medium.ttf` (Unknown)
+      - 📄 `src\assets\fonts\RobotoCondensed-Medium.ttf` (Unknown)
+    - 📄 `src\assets\libphonenumber.metadata.json` (JSON)
+  - 📁 `src\components/`
+    - 📁 `src\components\animated-icons/`
+      - 📄 `src\components\animated-icons\chevrons-down-up-icon.tsx` (React TypeScript)
+        - *Imports:* `motion/react`, `react`
+        - *Exports:* `ChevronsDownUpIcon`
+      - 📄 `src\components\animated-icons\moon.tsx` (React TypeScript)
+        - *Imports:* `motion/react`, `motion/react`, `react`, `react`, `@/lib/utils`
+        - *Exports:* `MoonIcon`
+      - 📄 `src\components\animated-icons\sun-medium.tsx` (React TypeScript)
+        - *Imports:* `motion/react`, `motion/react`, `react`, `react`, `@/lib/utils`
+        - *Exports:* `SunMediumIcon`
+    - 📁 `src\components\kibo-ui/`
+      - 📁 `src\components\kibo-ui\contribution-graph/`
+        - 📄 `src\components\kibo-ui\contribution-graph\index.tsx` (React TypeScript)
+          - *Imports:* `date-fns`, `date-fns`, `react`, `@/lib/utils`
+      - 📁 `src\components\kibo-ui\marquee/`
+        - 📄 `src\components\kibo-ui\marquee\index.tsx` (React TypeScript)
+          - *Imports:* `react`, `react-fast-marquee`, `react-fast-marquee`, `@/lib/utils`
+    - 📁 `src\components\ui/`
+      - 📄 `src\components\ui\button.tsx` (React TypeScript)
+        - *Imports:* `class-variance-authority`, `radix-ui`, `react`, `@/lib/utils`
+        - *Exports:* `Button`, `buttonVariants`
+      - 📄 `src\components\ui\collapsible.tsx` (React TypeScript)
+        - *Imports:* `radix-ui`, `react`, `../animated-icons/chevrons-down-up-icon`, `../animated-icons/chevrons-down-up-icon`
+        - *Exports:* `Collapsible`, `CollapsibleChevronsIcon`, `CollapsibleContent`, `CollapsibleTrigger`, `CollapsibleWithContext`
+      - 📄 `src\components\ui\command.tsx` (React TypeScript)
+        - *Imports:* `cmdk`, `react`, `@/components/ui/dialog`, `@/lib/utils`
+        - *Exports:* `Command`, `CommandDialog`, `CommandEmpty`, `CommandGroup`, `CommandInput`, `CommandItem`, `CommandList`, `CommandSeparator`, `CommandShortcut`
+      - 📄 `src\components\ui\context-menu.tsx` (React TypeScript)
+        - *Imports:* `lucide-react`, `radix-ui`, `react`, `@/lib/utils`
+        - *Exports:* `ContextMenu`, `ContextMenuCheckboxItem`, `ContextMenuContent`, `ContextMenuGroup`, `ContextMenuItem`, `ContextMenuLabel`, `ContextMenuPortal`, `ContextMenuRadioGroup`, `ContextMenuRadioItem`, `ContextMenuSeparator`, `ContextMenuShortcut`, `ContextMenuSub`, `ContextMenuSubContent`, `ContextMenuSubTrigger`, `ContextMenuTrigger`
+      - 📄 `src\components\ui\dialog.tsx` (React TypeScript)
+        - *Imports:* `lucide-react`, `radix-ui`, `react`, `@/lib/utils`
+        - *Exports:* `Dialog`, `DialogClose`, `DialogContent`, `DialogDescription`, `DialogFooter`, `DialogHeader`, `DialogOverlay`, `DialogPortal`, `DialogTitle`, `DialogTrigger`
+      - 📄 `src\components\ui\dropdown-menu.tsx` (React TypeScript)
+        - *Imports:* `lucide-react`, `radix-ui`, `react`, `@/lib/utils`
+        - *Exports:* `DropdownMenu`, `DropdownMenuCheckboxItem`, `DropdownMenuContent`, `DropdownMenuGroup`, `DropdownMenuItem`, `DropdownMenuLabel`, `DropdownMenuPortal`, `DropdownMenuRadioGroup`, `DropdownMenuRadioItem`, `DropdownMenuSeparator`, `DropdownMenuShortcut`, `DropdownMenuSub`, `DropdownMenuSubContent`, `DropdownMenuSubTrigger`, `DropdownMenuTrigger`
+      - 📄 `src\components\ui\form.tsx` (React TypeScript)
+        - *Imports:* `radix-ui`, `radix-ui`, `react`, `react-hook-form`, `@/components/ui/label`, `@/lib/utils`
+        - *Exports:* `Form`, `FormControl`, `FormDescription`, `FormField`, `FormItem`, `FormLabel`, `FormMessage`, `useFormField`
+      - 📄 `src\components\ui\label.tsx` (React TypeScript)
+        - *Imports:* `radix-ui`, `react`, `@/lib/utils`
+        - *Exports:* `Label`
+      - 📄 `src\components\ui\scroll-area.tsx` (React TypeScript)
+        - *Imports:* `radix-ui`, `react`, `@/lib/utils`
+        - *Exports:* `ScrollArea`, `ScrollBar`
+      - 📄 `src\components\ui\separator.tsx` (React TypeScript)
+        - *Imports:* `radix-ui`, `react`, `@/lib/utils`
+        - *Exports:* `Separator`
+      - 📄 `src\components\ui\smooth-cursor.tsx` (React TypeScript)
+        - *Imports:* `motion/react`, `react`, `react`
+        - *Exports:* `SmoothCursor`
+      - 📄 `src\components\ui\sonner.tsx` (React TypeScript)
+        - *Imports:* `next-themes`, `sonner`, `sonner`, `@/lib/utils`
+        - *Exports:* `Toaster`
+      - 📄 `src\components\ui\table.tsx` (React TypeScript)
+        - *Imports:* `react`, `@/lib/utils`
+        - *Exports:* `Table`, `TableBody`, `TableCell`, `TableHead`, `TableHeader`, `TableRow`
+      - 📄 `src\components\ui\tabs.tsx` (React TypeScript)
+        - *Imports:* `radix-ui`, `react`, `@/lib/utils`
+        - *Exports:* `Tabs`, `TabsContent`, `TabsList`, `TabsTrigger`
+      - 📄 `src\components\ui\tag.tsx` (React TypeScript)
+        - *Imports:* `react`, `@/lib/utils`
+        - *Exports:* `Tag`
+      - 📄 `src\components\ui\tooltip.tsx` (React TypeScript)
+        - *Imports:* `radix-ui`, `react`, `@/lib/utils`
+        - *Exports:* `SimpleTooltip`, `Tooltip`, `TooltipContent`, `TooltipProvider`, `TooltipTrigger`
+      - 📄 `src\components\ui\typography.tsx` (React TypeScript)
+        - *Imports:* `lucide-react`, `radix-ui`, `react`, `@/lib/utils`
+        - *Exports:* `Code`, `Heading`, `Prose`
+    - 📄 `src\components\brand-context-menu.tsx` (React TypeScript)
+      - *Imports:* `lucide-react`, `next-themes`, `sonner`, `@/utils/copy`, `./brand-mark`, `./brand-wordmark`, `./ui/context-menu`
+      - *Exports:* `BrandContextMenu`
+    - 📄 `src\components\brand-mark.tsx` (React TypeScript)
+      - *Exports:* `BrandMark`, `getMarkSVG`
+    - 📄 `src\components\brand-wordmark.tsx` (React TypeScript)
+      - *Exports:* `BrandWordmark`, `getWordmarkSVG`
+    - 📄 `src\components\code-block-command.tsx` (React TypeScript)
+      - *Imports:* `react`, `@/components/ui/tabs`, `@/hooks/use-config`, `@/hooks/use-config`, `@/types/unist`, `./copy-button`, `./icons`
+      - *Exports:* `CodeBlockCommand`
+    - 📄 `src\components\code-collapsible-wrapper.tsx` (React TypeScript)
+      - *Imports:* `@/components/ui/button`, `@/components/ui/collapsible`, `@/components/ui/collapsible`, `@/components/ui/separator`, `@/lib/utils`
+      - *Exports:* `CodeCollapsibleWrapper`
+    - 📄 `src\components\code-tabs.tsx` (React TypeScript)
+      - *Imports:* `@/hooks/use-config`, `@/hooks/use-config`, `./ui/tabs`
+      - *Exports:* `CodeTabs`
+    - 📄 `src\components\collapsible-list.tsx` (React TypeScript)
+      - *Imports:* `lucide-react`, `radix-ui`, `react`, `@/components/ui/button`, `@/components/ui/collapsible`
+      - *Exports:* `CollapsibleList`
+    - 📄 `src\components\command-menu.tsx` (React TypeScript)
+      - *Imports:* `cmdk`, `lucide-react`, `lucide-react`, `next/image`, `next/navigation`, `next-themes`, `react`, `sonner`, `@/components/ui/command`, `@/features/profile/data/social-links`, `@/hooks/use-sound`, `@/lib/utils`, `@/utils/copy`, `./brand-mark`, `./brand-wordmark`, `./icons`, `./ui/button`, `./ui/separator`
+      - *Exports:* `CommandMenu`
+    - 📄 `src\components\component-preview.tsx` (React TypeScript)
+      - *Imports:* `lucide-react`, `next-themes`, `react`, `@/__registry__/index`, `@/lib/utils`, `./code-collapsible-wrapper`, `./open-in-v0`, `./ui/button`, `./ui/tabs`, `./ui/tooltip`, `./ui/typography`
+      - *Exports:* `ComponentPreview`
+    - 📄 `src\components\component-source.tsx` (React TypeScript)
+      - *Imports:* `./code-collapsible-wrapper`
+      - *Exports:* `ComponentSource`
+    - 📄 `src\components\copy-button.tsx` (React TypeScript)
+      - *Imports:* `lucide-react`, `motion/react`, `react`, `@/lib/utils`, `./ui/button`
+      - *Exports:* `CopyButton`
+    - 📄 `src\components\desktop-nav.tsx` (React TypeScript)
+      - *Imports:* `next/navigation`, `@/components/nav`, `@/types/nav`
+      - *Exports:* `DesktopNav`
+    - 📄 `src\components\embed.tsx` (React TypeScript)
+      - *Exports:* `YouTubeEmbed`, `FramedImage`
+    - 📄 `src\components\icons.tsx` (React TypeScript)
+      - *Imports:* `lucide-react`
+      - *Exports:* `getIconForLanguageExtension`, `getIconForPackageManager`, `getIcon`
+    - 📄 `src\components\inline-toc.tsx` (React TypeScript)
+      - *Imports:* `fumadocs-core/toc`, `lucide-react`, `@/components/ui/collapsible`, `@/components/ui/collapsible`, `@/lib/utils`
+      - *Exports:* `InlineTOC`
+    - 📄 `src\components\markdown.tsx` (React TypeScript)
+      - *Imports:* `react-markdown`, `rehype-external-links`, `rehype-raw`, `remark-gfm`, `@/config/site`, `@/lib/rehype-add-query-params`
+      - *Exports:* `Markdown`
+    - 📄 `src\components\mdx.tsx` (React TypeScript)
+      - *Imports:* `next-mdx-remote/rsc`, `next-mdx-remote/rsc`, `rehype-external-links`, `rehype-pretty-code`, `rehype-pretty-code`, `rehype-slug`, `remark-gfm`, `unist-util-visit`, `@/components/code-collapsible-wrapper`, `@/components/component-preview`, `@/components/component-source`, `@/components/ui/table`, `@/components/ui/tabs`, `@/components/ui/typography`, `@/config/site`, `@/lib/rehype-add-query-params`, `@/lib/rehype-component`, `@/lib/rehype-npm-command`, `@/lib/remark-code-import`, `@/lib/utils`, `@/types/unist`, `./code-block-command`, `./code-tabs`, `./copy-button`, `./embed`, `./icons`
+      - *Exports:* `MDX`
+    - 📄 `src\components\mobile-nav.tsx` (React TypeScript)
+      - *Imports:* `next/link`, `@/components/ui/button`, `@/components/ui/dropdown-menu`, `@/lib/utils`, `@/types/nav`
+      - *Exports:* `MobileNav`
+    - 📄 `src\components\nav-item-github.tsx` (React TypeScript)
+      - *Imports:* `@/components/ui/button`, `@/config/site`, `./icons`, `./ui/tooltip`
+      - *Exports:* `NavItemGitHub`
+    - 📄 `src\components\nav-scrollspy.tsx` (React TypeScript)
+      - *Imports:* `react`, `@/components/nav`, `@/hooks/use-media-query`, `@/types/nav`
+      - *Exports:* `NavScrollspy`
+    - 📄 `src\components\nav.tsx` (React TypeScript)
+      - *Imports:* `next/link`, `react`, `@/lib/utils`, `@/types/nav`
+      - *Exports:* `Nav`, `NavItem`
+    - 📄 `src\components\not-found.tsx` (React TypeScript)
+      - *Imports:* `lucide-react`, `next/link`, `@/components/ui/button`, `@/lib/utils`
+      - *Exports:* `NotFound`
+    - 📄 `src\components\open-in-v0.tsx` (React TypeScript)
+      - *Imports:* `@/components/ui/button`, `./icons`
+      - *Exports:* `OpenInV0Button`
+    - 📄 `src\components\providers.tsx` (React TypeScript)
+      - *Imports:* `@bprogress/next`, `@vercel/analytics/next`, `@vercel/speed-insights/next`, `jotai`, `next-themes`, `@/components/ui/smooth-cursor`, `./ui/sonner`
+      - *Exports:* `Providers`
+    - 📄 `src\components\scroll-top.tsx` (React TypeScript)
+      - *Imports:* `lucide-react`, `motion/react`, `react`, `@/components/ui/button`, `@/lib/utils`
+      - *Exports:* `ScrollTop`
+    - 📄 `src\components\site-footer.tsx` (React TypeScript)
+      - *Imports:* `@/config/site`
+      - *Exports:* `SiteFooter`
+    - 📄 `src\components\site-header-mark.tsx` (React TypeScript)
+      - *Imports:* `motion/react`, `next/navigation`, `react`, `./brand-mark`
+      - *Exports:* `SiteHeaderMark`
+    - 📄 `src\components\site-header-wrapper.tsx` (React TypeScript)
+      - *Imports:* `motion/react`, `react`
+      - *Exports:* `SiteHeaderWrapper`
+    - 📄 `src\components\site-header.tsx` (React TypeScript)
+      - *Imports:* `next/dynamic`, `next/link`, `@/components/desktop-nav`, `@/components/nav-item-github`, `@/config/site`, `@/lib/utils`, `./site-header-mark`, `./site-header-wrapper`, `./toggle-theme`
+      - *Exports:* `SiteHeader`
+    - 📄 `src\components\stars-count.tsx` (React TypeScript)
+      - *Imports:* `@/config/site`
+      - *Exports:* `StarsCount`
+    - 📄 `src\components\toggle-theme.tsx` (React TypeScript)
+      - *Imports:* `next-themes`, `react`, `@/config/site`, `@/hooks/use-meta-color`, `@/hooks/use-sound`, `./animated-icons/moon`, `./animated-icons/sun-medium`, `./ui/button`
+      - *Exports:* `ToggleTheme`
+  - 📁 `src\config/`
+    - 📄 `src\config\site.ts` (TypeScript)
+      - *Imports:* `@/features/profile/data/user`, `@/types/nav`
+  - 📁 `src\features/`
+    - 📁 `src\features\profile/`
+      - 📁 `src\features\profile\components/`
+        - 📁 `src\features\profile\components\abdulrehman-cover-grid/`
+          - 📄 `src\features\profile\components\abdulrehman-cover-grid\index.tsx` (React TypeScript)
+            - *Imports:* `@/lib/utils`, `./logo-resize-animation`
+            - *Exports:* `BrandCoverGrid`
+          - 📄 `src\features\profile\components\abdulrehman-cover-grid\logo-resize-animation.tsx` (React TypeScript)
+            - *Imports:* `motion/react`, `react`, `@/components/brand-mark`
+            - *Exports:* `LogoResizeAnimation`
+        - 📁 `src\features\profile\components\abdulrehman-cover-hello/`
+          - 📄 `src\features\profile\components\abdulrehman-cover-hello\hello.tsx` (React TypeScript)
+            - *Imports:* `lucide-react`, `motion/react`, `react`, `@/components/brand-mark`, `@/components/ui/button`, `@/components/ui/tooltip`, `@/registry/apple-hello-effect`
+            - *Exports:* `Hello`
+          - 📄 `src\features\profile\components\abdulrehman-cover-hello\index.tsx` (React TypeScript)
+            - *Imports:* `@/lib/utils`, `./hello`
+            - *Exports:* `BrandCoverHello`
+        - 📁 `src\features\profile\components\awards/`
+          - 📄 `src\features\profile\components\awards\award-item.tsx` (React TypeScript)
+            - *Imports:* `dayjs`, `lucide-react`, `@/components/icons`, `@/components/markdown`, `@/components/ui/collapsible`, `@/components/ui/separator`, `@/components/ui/tooltip`, `@/components/ui/typography`, `../../types/awards`
+            - *Exports:* `AwardItem`
+          - 📄 `src\features\profile\components\awards\index.tsx` (React TypeScript)
+            - *Imports:* `dayjs`, `@/components/collapsible-list`, `../../data/awards`, `../panel`, `./award-item`
+            - *Exports:* `Awards`
+        - 📁 `src\features\profile\components\certifications/`
+          - 📄 `src\features\profile\components\certifications\certification-item.tsx` (React TypeScript)
+            - *Imports:* `dayjs`, `lucide-react`, `next/image`, `react`, `@/components/icons`, `@/components/ui/separator`, `@/lib/utils`, `../../types/certifications`
+            - *Exports:* `CertificationItem`
+          - 📄 `src\features\profile\components\certifications\index.tsx` (React TypeScript)
+            - *Imports:* `@/components/collapsible-list`, `../../data/certifications`, `../panel`, `./certification-item`
+            - *Exports:* `Certifications`
+        - 📁 `src\features\profile\components\experiences/`
+          - 📄 `src\features\profile\components\experiences\experience-item.tsx` (React TypeScript)
+            - *Imports:* `next/image`, `react`, `../../types/experiences`, `./experience-position-item`
+            - *Exports:* `ExperienceItem`
+          - 📄 `src\features\profile\components\experiences\experience-position-icon.tsx` (React TypeScript)
+            - *Imports:* `lucide-react`, `lucide-react`, `../../types/experiences`
+            - *Exports:* `ExperienceIcon`
+          - 📄 `src\features\profile\components\experiences\experience-position-item.tsx` (React TypeScript)
+            - *Imports:* `lucide-react`, `react`, `@/components/markdown`, `@/components/ui/collapsible`, `@/components/ui/separator`, `@/components/ui/tag`, `@/components/ui/typography`, `@/lib/utils`, `../../types/experiences`, `./experience-position-icon`
+            - *Exports:* `ExperiencePositionItem`
+          - 📄 `src\features\profile\components\experiences\index.tsx` (React TypeScript)
+            - *Imports:* `react`, `../../data/experiences`, `../panel`, `./experience-item`
+            - *Exports:* `Experiences`
+        - 📁 `src\features\profile\components\github-contributions/`
+          - 📄 `src\features\profile\components\github-contributions\graph.tsx` (React TypeScript)
+            - *Imports:* `dayjs`, `lucide-react`, `react`, `@/components/kibo-ui/contribution-graph`, `@/components/kibo-ui/contribution-graph`, `@/components/ui/tooltip`, `@/config/site`
+            - *Exports:* `GitHubContributionGraph`, `GitHubContributionFallback`
+          - 📄 `src\features\profile\components\github-contributions\index.tsx` (React TypeScript)
+            - *Imports:* `react`, `../../data/github-contributions`, `../panel`, `./graph`
+            - *Exports:* `GitHubContributions`
+        - 📁 `src\features\profile\components\overview/`
+          - 📄 `src\features\profile\components\overview\current-local-time-item.tsx` (React TypeScript)
+            - *Imports:* `@date-fns/tz`, `date-fns`, `lucide-react`, `react`, `./intro-item`
+            - *Exports:* `CurrentLocalTimeItem`
+          - 📄 `src\features\profile\components\overview\email-item.tsx` (React TypeScript)
+            - *Imports:* `lucide-react`, `@/hooks/use-is-client`, `@/utils/string`, `./intro-item`
+            - *Exports:* `EmailItem`
+          - 📄 `src\features\profile\components\overview\index.tsx` (React TypeScript)
+            - *Imports:* `lucide-react`, `@/features/profile/data/user`, `@/utils/url`, `../panel`, `./current-local-time-item`, `./email-item`, `./intro-item`, `./job-item`
+            - *Exports:* `Overview`
+          - 📄 `src\features\profile\components\overview\intro-item.tsx` (React TypeScript)
+            - *Imports:* `@/lib/utils`
+            - *Exports:* `IntroItem`, `IntroItemIcon`, `IntroItemContent`, `IntroItemLink`
+          - 📄 `src\features\profile\components\overview\job-item.tsx` (React TypeScript)
+            - *Imports:* `lucide-react`, `@/config/site`, `@/utils/url`, `./intro-item`
+            - *Exports:* `JobItem`
+          - 📄 `src\features\profile\components\overview\phone-item.tsx` (React TypeScript)
+            - *Imports:* `lucide-react`, `@/hooks/use-is-client`, `@/utils/string`, `./intro-item`
+            - *Exports:* `PhoneItem`
+        - 📁 `src\features\profile\components\projects/`
+          - 📄 `src\features\profile\components\projects\index.tsx` (React TypeScript)
+            - *Imports:* `@/components/collapsible-list`, `../../data/projects`, `../panel`, `./project-item`
+            - *Exports:* `Projects`
+          - 📄 `src\features\profile\components\projects\project-item.tsx` (React TypeScript)
+            - *Imports:* `lucide-react`, `next/image`, `react`, `@/components/icons`, `@/components/markdown`, `@/components/ui/collapsible`, `@/components/ui/tag`, `@/components/ui/tooltip`, `@/components/ui/typography`, `@/config/site`, `@/utils/url`, `../../types/projects`
+            - *Exports:* `ProjectItem`
+        - 📁 `src\features\profile\components\social-links/`
+          - 📄 `src\features\profile\components\social-links\index.tsx` (React TypeScript)
+            - *Imports:* `react`, `../../data/social-links`, `../panel`, `./social-link-item`
+            - *Exports:* `SocialLinks`
+          - 📄 `src\features\profile\components\social-links\social-link-item.tsx` (React TypeScript)
+            - *Imports:* `lucide-react`, `next/image`, `@/features/profile/types/social-links`, `@/lib/utils`
+            - *Exports:* `SocialLinkItem`
+        - 📁 `src\features\profile\components\testimonials-marquee/`
+          - 📄 `src\features\profile\components\testimonials-marquee\index.tsx` (React TypeScript)
+            - *Imports:* `@/components/kibo-ui/marquee`, `../../data/testimonials`, `../panel`, `./testimonial-item`
+            - *Exports:* `TestimonialsMarquee`
+          - 📄 `src\features\profile\components\testimonials-marquee\testimonial-item.tsx` (React TypeScript)
+            - *Imports:* `@/registry/testimonials-marquee`, `../../types/testimonials`
+            - *Exports:* `TestimonialItem`
+        - 📄 `src\features\profile\components\about.tsx` (React TypeScript)
+          - *Imports:* `@/components/markdown`, `@/components/ui/typography`, `@/features/profile/data/user`, `./panel`
+          - *Exports:* `About`
+        - 📄 `src\features\profile\components\brand.tsx` (React TypeScript)
+          - *Imports:* `next/dynamic`, `@/components/brand-mark`, `@/components/brand-wordmark`, `./panel`
+          - *Exports:* `Brand`
+        - 📄 `src\features\profile\components\panel.tsx` (React TypeScript)
+          - *Imports:* `radix-ui`, `react`, `@/lib/utils`
+          - *Exports:* `Panel`, `PanelContent`, `PanelHeader`, `PanelTitle`
+        - 📄 `src\features\profile\components\profile-cover.tsx` (React TypeScript)
+          - *Imports:* `@/components/brand-mark`, `@/components/brand-context-menu`, `@/lib/utils`
+          - *Exports:* `ProfileCover`
+        - 📄 `src\features\profile\components\profile-header.tsx` (React TypeScript)
+          - *Imports:* `@/components/ui/tooltip`, `@/features/profile/data/user`, `@/lib/utils`, `@/registry/flip-sentences`, `./verified-icon`
+          - *Exports:* `ProfileHeader`
+        - 📄 `src\features\profile\components\pronounce-my-name.tsx` (React TypeScript)
+          - *Imports:* `lucide-react`, `@/hooks/use-sound`, `@/lib/utils`
+          - *Exports:* `PronounceMyName`
+        - 📄 `src\features\profile\components\teck-stack.tsx` (React TypeScript)
+          - *Imports:* `next/image`, `react`, `@/components/ui/tooltip`, `@/lib/utils`, `../data/tech-stack`, `./panel`
+          - *Exports:* `TeckStack`
+        - 📄 `src\features\profile\components\verified-icon.tsx` (React TypeScript)
+          - *Exports:* `VerifiedIcon`
+      - 📁 `src\features\profile\data/`
+        - 📄 `src\features\profile\data\awards.ts` (TypeScript)
+          - *Imports:* `../types/awards`
+        - 📄 `src\features\profile\data\certifications.ts` (TypeScript)
+          - *Imports:* `../types/certifications`
+        - 📄 `src\features\profile\data\experiences.ts` (TypeScript)
+          - *Imports:* `../types/experiences`
+        - 📄 `src\features\profile\data\github-contributions.ts` (TypeScript)
+          - *Imports:* `@/components/kibo-ui/contribution-graph`, `@/config/site`
+          - *Exports:* `getGitHubContributions`
+        - 📄 `src\features\profile\data\projects.ts` (TypeScript)
+          - *Imports:* `../types/projects`
+        - 📄 `src\features\profile\data\social-links.ts` (TypeScript)
+          - *Imports:* `../types/social-links`
+        - 📄 `src\features\profile\data\tech-stack.ts` (TypeScript)
+          - *Imports:* `../types/tech-stack`
+        - 📄 `src\features\profile\data\testimonials.ts` (TypeScript)
+          - *Imports:* `../types/testimonials`
+        - 📄 `src\features\profile\data\user.ts` (TypeScript)
+          - *Imports:* `@/features/profile/types/user`
+      - 📁 `src\features\profile\types/`
+        - 📄 `src\features\profile\types\awards.ts` (TypeScript)
+        - 📄 `src\features\profile\types\certifications.ts` (TypeScript)
+        - 📄 `src\features\profile\types\experiences.ts` (TypeScript)
+        - 📄 `src\features\profile\types\projects.ts` (TypeScript)
+        - 📄 `src\features\profile\types\social-links.ts` (TypeScript)
+        - 📄 `src\features\profile\types\tech-stack.ts` (TypeScript)
+        - 📄 `src\features\profile\types\testimonials.ts` (TypeScript)
+        - 📄 `src\features\profile\types\user.ts` (TypeScript)
+  - 📁 `src\hooks/`
+    - 📄 `src\hooks\use-config.ts` (TypeScript)
+      - *Imports:* `jotai`, `jotai/utils`
+      - *Exports:* `useConfig`
+    - 📄 `src\hooks\use-controllable-state.ts` (TypeScript)
+      - *Imports:* `react`, `@/hooks/use-layout-effect`
+      - *Exports:* `useControllableState`
+    - 📄 `src\hooks\use-is-client.ts` (TypeScript)
+      - *Imports:* `react`
+      - *Exports:* `useIsClient`
+    - 📄 `src\hooks\use-is-in-viewport.ts` (TypeScript)
+      - *Imports:* `react`, `react`
+      - *Exports:* `useIsInViewport`
+    - 📄 `src\hooks\use-layout-effect.tsx` (React TypeScript)
+      - *Imports:* `react`
+      - *Exports:* `useLayoutEffect`
+    - 📄 `src\hooks\use-media-query.ts` (TypeScript)
+      - *Imports:* `react`
+      - *Exports:* `useMediaQuery`
+    - 📄 `src\hooks\use-meta-color.ts` (TypeScript)
+      - *Imports:* `next-themes`, `react`, `@/config/site`
+      - *Exports:* `useMetaColor`
+    - 📄 `src\hooks\use-sound.ts` (TypeScript)
+      - *Imports:* `react`
+      - *Exports:* `useSound`
+  - 📁 `src\lib/`
+    - 📄 `src\lib\fonts.ts` (TypeScript)
+      - *Imports:* `geist/font/mono`, `next/font/google`
+    - 📄 `src\lib\libphonenumber.ts` (TypeScript)
+      - *Imports:* `libphonenumber-js/core`, `libphonenumber-js/core`, `@/assets/libphonenumber.metadata.json`
+      - *Exports:* `formatIncompletePhoneNumber`
+    - 📄 `src\lib\rehype-add-query-params.ts` (TypeScript)
+      - *Imports:* `unist-util-visit`, `@/types/unist`, `@/utils/url`
+      - *Exports:* `rehypeAddQueryParams`
+    - 📄 `src\lib\rehype-component.ts` (TypeScript)
+      - *Imports:* `node:fs`, `node:path`, `unist-builder`, `unist-util-visit`, `@/__registry__/index`, `@/types/unist`
+      - *Exports:* `rehypeComponent`
+    - 📄 `src\lib\rehype-npm-command.ts` (TypeScript)
+      - *Imports:* `unist-util-visit`, `@/types/unist`
+      - *Exports:* `rehypeNpmCommand`
+    - 📄 `src\lib\remark-code-import.js` (JavaScript)
+      - *Imports:* `node:fs`, `node:os`, `node:path`, `strip-indent`, `unist-util-visit`
+      - *Exports:* `remarkCodeImport`
+    - 📄 `src\lib\remark-component.ts` (TypeScript)
+      - *Imports:* `node:fs`, `node:path`, `unist-util-visit`, `@/__registry__/index`, `@/types/unist`
+      - *Exports:* `remarkComponent`
+    - 📄 `src\lib\utils.ts` (TypeScript)
+      - *Imports:* `clsx`, `clsx`, `tailwind-merge`
+  - 📁 `src\registry/`
+    - 📁 `src\registry\apple-hello-effect/`
+      - 📄 `src\registry\apple-hello-effect\apple-hello-effect.tsx` (React TypeScript)
+        - *Imports:* `motion/react`, `motion/react`, `@/lib/utils`
+        - *Exports:* `AppleHelloEnglishEffect`, `AppleHelloVietnameseEffect`
+      - 📄 `src\registry\apple-hello-effect\index.ts` (TypeScript)
+        - *Exports:* `* from ./apple-hello-effect`
+    - 📁 `src\registry\examples/`
+      - 📄 `src\registry\examples\apple-hello-effect-en-demo.tsx` (React TypeScript)
+        - *Imports:* `@/registry/apple-hello-effect`
+        - *Exports:* `EnglishDemo`
+      - 📄 `src\registry\examples\apple-hello-effect-vi-demo.tsx` (React TypeScript)
+        - *Imports:* `@/registry/apple-hello-effect`
+        - *Exports:* `VietnameseDemo`
+      - 📄 `src\registry\examples\shimmering-text-demo.tsx` (React TypeScript)
+        - *Imports:* `@/registry/shimmering-text`
+        - *Exports:* `ShimmeringTextDemo`
+      - 📄 `src\registry\examples\slide-to-unlock-demo-01.tsx` (React TypeScript)
+        - *Imports:* `sonner`, `@/hooks/use-sound`, `@/registry/shimmering-text`, `@/registry/slide-to-unlock`
+        - *Exports:* `SlideToUnlockDemo1`
+      - 📄 `src\registry\examples\slide-to-unlock-demo-02.tsx` (React TypeScript)
+        - *Imports:* `sonner`, `@/registry/shimmering-text`, `@/registry/slide-to-unlock`
+        - *Exports:* `SlideToUnlockDemo2`
+      - 📄 `src\registry\examples\slide-to-unlock-demo-03.tsx` (React TypeScript)
+        - *Imports:* `sonner`, `@/registry/shimmering-text`, `@/registry/slide-to-unlock`
+        - *Exports:* `SlideToUnlockDemo3`
+      - 📄 `src\registry\examples\testimonials-marquee-demo-01.tsx` (React TypeScript)
+        - *Imports:* `@/components/kibo-ui/marquee`, `@/registry/testimonials-marquee`
+        - *Exports:* `TestimonialsMarqueeDemo1`
+      - 📄 `src\registry\examples\testimonials-marquee-demo-02.tsx` (React TypeScript)
+        - *Imports:* `@/components/kibo-ui/marquee`, `@/registry/testimonials-marquee`
+        - *Exports:* `TestimonialsMarqueeDemo2`
+      - 📄 `src\registry\examples\theme-switcher-demo.tsx` (React TypeScript)
+        - *Imports:* `@/registry/theme-switcher`
+        - *Exports:* `ThemeSwitcherDemo`
+      - 📄 `src\registry\examples\wheel-picker-demo.tsx` (React TypeScript)
+        - *Imports:* `@/registry/wheel-picker`, `@/registry/wheel-picker`
+        - *Exports:* `WheelPickerDemo`
+      - 📄 `src\registry\examples\wheel-picker-form-demo.tsx` (React TypeScript)
+        - *Imports:* `@hookform/resolvers/zod`, `react-hook-form`, `react-hook-form`, `sonner`, `zod`, `@/components/ui/button`, `@/components/ui/form`, `@/registry/wheel-picker`, `@/registry/wheel-picker`
+        - *Exports:* `WheelPickerFormDemo`
+      - 📄 `src\registry\examples\work-experience-demo.tsx` (React TypeScript)
+        - *Imports:* `@/registry/work-experience`, `@/registry/work-experience`
+        - *Exports:* `WorkExperienceDemo`
+    - 📁 `src\registry\flip-sentences/`
+      - 📄 `src\registry\flip-sentences\flip-sentences.tsx` (React TypeScript)
+        - *Imports:* `motion/react`, `react`, `@/lib/utils`
+        - *Exports:* `FlipSentences`
+      - 📄 `src\registry\flip-sentences\index.ts` (TypeScript)
+        - *Exports:* `* from ./flip-sentences`
+    - 📁 `src\registry\shimmering-text/`
+      - 📄 `src\registry\shimmering-text\index.ts` (TypeScript)
+        - *Exports:* `* from ./shimmering-text`
+      - 📄 `src\registry\shimmering-text\shimmering-text.tsx` (React TypeScript)
+        - *Imports:* `motion/react`, `motion/react`, `react`, `@/lib/utils`
+        - *Exports:* `ShimmeringText`
+    - 📁 `src\registry\slide-to-unlock/`
+      - 📄 `src\registry\slide-to-unlock\index.ts` (TypeScript)
+        - *Exports:* `* from ./slide-to-unlock`
+      - 📄 `src\registry\slide-to-unlock\slide-to-unlock.tsx` (React TypeScript)
+        - *Imports:* `motion/react`, `react`, `@/lib/utils`
+        - *Exports:* `SlideToUnlock`, `SlideToUnlockTrack`, `SlideToUnlockText`, `SlideToUnlockHandle`
+    - 📁 `src\registry\testimonials-marquee/`
+      - 📄 `src\registry\testimonials-marquee\index.ts` (TypeScript)
+        - *Exports:* `* from ./testimonials-marquee`
+      - 📄 `src\registry\testimonials-marquee\testimonials-marquee.tsx` (React TypeScript)
+        - *Imports:* `@/lib/utils`
+        - *Exports:* `Testimonial`, `TestimonialQuote`, `TestimonialAuthor`, `TestimonialAvatar`, `TestimonialAvatarImg`, `TestimonialAvatarRing`, `TestimonialAuthorName`, `TestimonialAuthorBio`, `TestimonialVerifiedBadge`
+    - 📁 `src\registry\theme-switcher/`
+      - 📄 `src\registry\theme-switcher\index.ts` (TypeScript)
+        - *Exports:* `* from ./theme-switcher`
+      - 📄 `src\registry\theme-switcher\theme-switcher.tsx` (React TypeScript)
+        - *Imports:* `lucide-react`, `motion/react`, `next-themes`, `react`, `react`, `@/lib/utils`
+        - *Exports:* `ThemeSwitcher`
+    - 📁 `src\registry\wheel-picker/`
+      - 📄 `src\registry\wheel-picker\index.ts` (TypeScript)
+        - *Exports:* `* from ./wheel-picker`
+      - 📄 `src\registry\wheel-picker\wheel-picker.tsx` (React TypeScript)
+        - *Imports:* `@ncdai/react-wheel-picker/style.css`, `@ncdai/react-wheel-picker`, `@/lib/utils`
+        - *Exports:* `WheelPicker`, `WheelPickerWrapper`, `WheelPickerClassNames`, `WheelPickerOption`
+    - 📁 `src\registry\work-experience/`
+      - 📄 `src\registry\work-experience\index.ts` (TypeScript)
+        - *Exports:* `* from ./work-experience`
+      - 📄 `src\registry\work-experience\work-experience.tsx` (React TypeScript)
+        - *Imports:* `lucide-react`, `next/image`, `react`, `react-markdown`, `@/components/ui/collapsible`, `@/components/ui/separator`, `@/lib/utils`
+        - *Exports:* `WorkExperience`, `ExperienceItem`, `ExperiencePositionItem`
+    - 📄 `src\registry\index.ts` (TypeScript)
+      - *Imports:* `shadcn/schema`, `./registry-blocks`, `./registry-components`, `./registry-examples`, `./registry-hook`, `./registry-lib`
+    - 📄 `src\registry\registry-blocks.ts` (TypeScript)
+      - *Imports:* `shadcn/schema`
+      - *Routes Provided:* `GET examples/wheel-picker-demo.tsx`, `GET examples/wheel-picker-form-demo.tsx`, `GET examples/work-experience-demo.tsx`, `GET examples/slide-to-unlock-demo-01.tsx`, `GET examples/slide-to-unlock-demo-02.tsx`, `GET examples/slide-to-unlock-demo-03.tsx`, `GET examples/testimonials-marquee-demo-01.tsx`, `GET examples/testimonials-marquee-demo-02.tsx`, `GET examples/wheel-picker-demo.tsx`, `GET examples/wheel-picker-form-demo.tsx`, `GET examples/work-experience-demo.tsx`, `GET examples/slide-to-unlock-demo-01.tsx`, `GET examples/slide-to-unlock-demo-02.tsx`, `GET examples/slide-to-unlock-demo-03.tsx`, `GET examples/testimonials-marquee-demo-01.tsx`, `GET examples/testimonials-marquee-demo-02.tsx`
+    - 📄 `src\registry\registry-components.ts` (TypeScript)
+      - *Imports:* `shadcn/schema`
+      - *Routes Provided:* `GET theme-switcher/theme-switcher.tsx`, `GET flip-sentences/flip-sentences.tsx`, `GET apple-hello-effect/apple-hello-effect.tsx`, `GET wheel-picker/wheel-picker.tsx`, `GET work-experience/work-experience.tsx`, `GET shimmering-text/shimmering-text.tsx`, `GET slide-to-unlock/slide-to-unlock.tsx`, `GET testimonials-marquee/testimonials-marquee.tsx`, `GET theme-switcher/theme-switcher.tsx`, `GET flip-sentences/flip-sentences.tsx`, `GET apple-hello-effect/apple-hello-effect.tsx`, `GET wheel-picker/wheel-picker.tsx`, `GET work-experience/work-experience.tsx`, `GET shimmering-text/shimmering-text.tsx`, `GET slide-to-unlock/slide-to-unlock.tsx`, `GET testimonials-marquee/testimonials-marquee.tsx`
+    - 📄 `src\registry\registry-examples.ts` (TypeScript)
+      - *Imports:* `shadcn/schema`
+      - *Routes Provided:* `GET examples/apple-hello-effect-vi-demo.tsx`, `GET examples/apple-hello-effect-en-demo.tsx`, `GET examples/theme-switcher-demo.tsx`, `GET examples/wheel-picker-demo.tsx`, `GET examples/wheel-picker-form-demo.tsx`, `GET examples/work-experience-demo.tsx`, `GET examples/shimmering-text-demo.tsx`, `GET examples/slide-to-unlock-demo-01.tsx`, `GET examples/slide-to-unlock-demo-02.tsx`, `GET examples/slide-to-unlock-demo-03.tsx`, `GET examples/testimonials-marquee-demo-01.tsx`, `GET examples/testimonials-marquee-demo-02.tsx`, `GET examples/apple-hello-effect-vi-demo.tsx`, `GET examples/apple-hello-effect-en-demo.tsx`, `GET examples/theme-switcher-demo.tsx`, `GET examples/wheel-picker-demo.tsx`, `GET examples/wheel-picker-form-demo.tsx`, `GET examples/work-experience-demo.tsx`, `GET examples/shimmering-text-demo.tsx`, `GET examples/slide-to-unlock-demo-01.tsx`, `GET examples/slide-to-unlock-demo-02.tsx`, `GET examples/slide-to-unlock-demo-03.tsx`, `GET examples/testimonials-marquee-demo-01.tsx`, `GET examples/testimonials-marquee-demo-02.tsx`
+    - 📄 `src\registry\registry-hook.ts` (TypeScript)
+      - *Imports:* `shadcn/schema`
+      - *Routes Provided:* `GET src/hooks/use-layout-effect.tsx`, `GET src/hooks/use-controllable-state.ts`, `GET src/hooks/use-sound.ts`, `GET src/hooks/use-layout-effect.tsx`, `GET src/hooks/use-controllable-state.ts`, `GET src/hooks/use-sound.ts`
+    - 📄 `src\registry\registry-lib.ts` (TypeScript)
+      - *Imports:* `shadcn/schema`
+      - *Routes Provided:* `GET src/lib/utils.ts`, `GET src/lib/utils.ts`
+  - 📁 `src\scripts/`
+    - 📄 `src\scripts\capture.mts` (Unknown)
+  - 📁 `src\styles/`
+    - 📄 `src\styles\globals.css` (CSS)
+  - 📁 `src\types/`
+    - 📄 `src\types\nav.ts` (TypeScript)
+    - 📄 `src\types\unist.ts` (TypeScript)
+      - *Imports:* `unist-builder`
+  - 📁 `src\utils/`
+    - 📄 `src\utils\copy.ts` (TypeScript)
+    - 📄 `src\utils\string.ts` (TypeScript)
+      - *Imports:* `@/lib/libphonenumber`
+      - *Exports:* `decodeEmail`, `decodePhoneNumber`, `formatPhoneNumber`
+    - 📄 `src\utils\url.ts` (TypeScript)
+      - *Exports:* `urlToName`, `addQueryParams`
+- 📄 `.gitignore` (Unknown)
+- 📄 `.lintstagedrc.mjs` (Unknown)
+- 📄 `.npmrc` (Unknown)
+- 📄 `.nvmrc` (Unknown)
+- 📄 `.prettierignore` (Unknown)
+- 📄 `.prettierrc` (Unknown)
+- 📄 `AGENTS.md` (Markdown)
+- 📄 `CODE_OF_CONDUCT.md` (Markdown)
+- 📄 `components.json` (JSON)
+- 📄 `DEVELOPMENT.md` (Markdown)
+- 📄 `eslint.config.mjs` (Unknown)
+- 📄 `LICENSE` (Unknown)
+- 📄 `next-env.d.ts` (TypeScript)
+  - *Imports:* `./.next/dev/types/routes.d.ts`
+- 📄 `next.config.ts` (TypeScript)
+  - *Imports:* `next`, `path`
+- 📄 `package.json` (JSON)
+- 📄 `pnpm-lock.yaml` (Unknown)
+- 📄 `postcss.config.mjs` (Unknown)
+- 📄 `README.md` (Markdown)
+- 📄 `tsconfig.json` (JSON)
+- 📄 `tsconfig.scripts.json` (JSON)
+- 📄 `tsconfig.tsbuildinfo` (Unknown)
+
+---
+Last updated: 2026-08-19T09:45:54.447Z

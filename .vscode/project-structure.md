@@ -451,6 +451,7 @@ This file maintains an up-to-date list of project files and structure.
     - 📄 `.next\dev\trace` (Unknown)
 - 📁 `.vscode/`
   - 📄 `.vscode\mcp.json` (JSON)
+  - 📄 `.vscode\project-structure.md` (Markdown)
   - 📄 `.vscode\settings.json` (JSON)
 - 📁 `public/`
   - 📁 `public\images/`
@@ -1002,6 +1003,7 @@ This file maintains an up-to-date list of project files and structure.
   - *Imports:* `next`, `path`
 - 📄 `package.json` (JSON)
 - 📄 `pnpm-lock.yaml` (Unknown)
+- 📄 `pnpm-workspace.yaml` (Unknown)
 - 📄 `postcss.config.mjs` (Unknown)
 - 📄 `README.md` (Markdown)
 - 📄 `tsconfig.json` (JSON)
@@ -1009,4 +1011,4 @@ This file maintains an up-to-date list of project files and structure.
 - 📄 `tsconfig.tsbuildinfo` (Unknown)
 
 ---
-Last updated: 2026-08-19T09:45:54.447Z
+Last updated: 2026-08-31T09:29:11.709Z

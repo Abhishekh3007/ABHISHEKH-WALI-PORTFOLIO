@@ -14,6 +14,7 @@ export const USER: User = {
     "Full-Stack Developer",
     "Mentor",
     "AI Enthusiast",
+    "Visual Storyteller",
   ],
   address: "Belgaum, Karnataka, India",
   phoneNumber: "",
